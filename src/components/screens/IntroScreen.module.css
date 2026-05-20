@@ -1,0 +1,31 @@
+﻿.screen {
+  display: grid;
+  place-content: center;
+  min-height: 66vh;
+  text-align: center;
+  gap: 1.25rem;
+}
+
+.screen h1 {
+  font-size: clamp(1.9rem, 4vw, 3rem);
+}
+
+.screen p {
+  margin-inline: auto;
+  max-width: 60ch;
+  color: var(--muted-text-color);
+}
+
+.button {
+  border: none;
+  border-radius: 999px;
+  padding: 0.85rem 1.45rem;
+  margin-inline: auto;
+  min-width: 170px;
+  cursor: pointer;
+  background: var(--accent-color);
+  color: white;
+  font-weight: 600;
+  box-shadow: 0 12px 26px -16px var(--shadow-color);
+}
+

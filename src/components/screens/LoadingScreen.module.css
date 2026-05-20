@@ -1,0 +1,30 @@
+﻿.screen {
+  min-height: 66vh;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  gap: 1rem;
+}
+
+.spark {
+  margin: 0 auto;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  color: var(--accent-color);
+  background: rgba(255, 255, 255, 0.76);
+  border: 1px solid var(--border-color);
+}
+
+.sparkIcon {
+  width: 1.55rem;
+  height: 1.55rem;
+  fill: currentColor;
+}
+
+.screen p {
+  color: var(--muted-text-color);
+}
+

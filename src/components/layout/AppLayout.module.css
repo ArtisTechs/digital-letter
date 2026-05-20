@@ -1,0 +1,33 @@
+﻿.page {
+  min-height: 100vh;
+  position: relative;
+  display: grid;
+  place-items: center;
+  padding: 1.5rem;
+  overflow: hidden;
+}
+
+.card {
+  width: min(840px, 100%);
+  min-height: min(78vh, 680px);
+  border-radius: 30px;
+  background: var(--surface-color);
+  border: 1px solid var(--border-color);
+  box-shadow: 0 24px 70px -38px var(--shadow-color);
+  backdrop-filter: blur(8px);
+  padding: clamp(1.5rem, 2vw + 1rem, 3rem);
+  position: relative;
+  z-index: 4;
+}
+
+@media (max-width: 768px) {
+  .page {
+    padding: 0.9rem;
+  }
+
+  .card {
+    min-height: 78vh;
+    border-radius: 22px;
+  }
+}
+

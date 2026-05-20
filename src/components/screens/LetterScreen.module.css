@@ -1,0 +1,158 @@
+﻿.screen {
+  min-height: 66vh;
+  display: grid;
+  align-content: center;
+  gap: 1.25rem;
+}
+
+.screen h2 {
+  text-align: center;
+  font-size: clamp(1.6rem, 3vw, 2.3rem);
+}
+
+.envelopeWrap {
+  display: grid;
+  place-items: center;
+  gap: 1rem;
+  min-height: 320px;
+}
+
+.envelope {
+  position: relative;
+  width: min(320px, 82vw);
+  height: 205px;
+  border-radius: 14px;
+  background: linear-gradient(160deg, #fffdfd, #ffeef5);
+  border: 1px solid rgba(235, 206, 219, 0.9);
+  box-shadow: 0 22px 52px -36px var(--shadow-color);
+  overflow: hidden;
+  perspective: 1200px;
+  transform-style: preserve-3d;
+}
+
+.flap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 62%;
+  transform-origin: top;
+  background: linear-gradient(145deg, color-mix(in srgb, var(--accent-color) 24%, white), #ffe4ef);
+  clip-path: polygon(0 0, 100% 0, 50% 82%);
+  z-index: 8;
+  backface-visibility: hidden;
+  box-shadow: inset 0 -14px 20px -14px rgba(137, 63, 93, 0.28);
+}
+
+.paper {
+  position: absolute;
+  left: 11%;
+  bottom: 12px;
+  width: 78%;
+  height: 88%;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #ffffff, #fff8fc);
+  border: 1px solid rgba(227, 194, 209, 0.86);
+  box-shadow: 0 12px 24px -18px rgba(94, 48, 68, 0.45);
+  padding: 18px 14px;
+  z-index: 2;
+  transform-origin: bottom center;
+}
+
+.paperLine,
+.paperLineShort {
+  display: block;
+  height: 2px;
+  border-radius: 999px;
+  background: rgba(205, 165, 183, 0.44);
+  margin-bottom: 12px;
+}
+
+.paperLineShort {
+  width: 70%;
+}
+
+.pocketLeft,
+.pocketRight,
+.pocketBottom {
+  position: absolute;
+  z-index: 5;
+}
+
+.pocketLeft {
+  left: 0;
+  bottom: 0;
+  width: 52%;
+  height: 72%;
+  background: linear-gradient(160deg, #ffe8f2, #ffdbe9);
+  clip-path: polygon(0 100%, 100% 100%, 100% 20%);
+}
+
+.pocketRight {
+  right: 0;
+  bottom: 0;
+  width: 52%;
+  height: 72%;
+  background: linear-gradient(200deg, #ffe2ee, #ffd7e7);
+  clip-path: polygon(0 20%, 0 100%, 100% 100%);
+}
+
+.pocketBottom {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 46%;
+  background: linear-gradient(180deg, rgba(255, 226, 238, 0), #ffdceb 66%, #ffd6e7 100%);
+  box-shadow: inset 0 20px 26px -24px rgba(128, 64, 89, 0.42);
+}
+
+.seal {
+  position: absolute;
+  left: 50%;
+  top: 57%;
+  width: 28px;
+  height: 28px;
+  border-radius: 999px;
+  background: linear-gradient(145deg, #cd5c86, #af3f6a);
+  transform: translate(-50%, -50%);
+  z-index: 9;
+  box-shadow: 0 8px 20px -10px rgba(98, 31, 58, 0.7);
+}
+
+.openingText {
+  color: var(--muted-text-color);
+}
+
+.letterReveal {
+  position: relative;
+}
+
+.letterTrail {
+  position: absolute;
+  left: 50%;
+  top: -10px;
+  width: min(240px, 64vw);
+  height: 160px;
+  transform: translateX(-50%);
+  border-radius: 14px;
+  pointer-events: none;
+  background: linear-gradient(
+    180deg,
+    color-mix(in srgb, var(--accent-color) 22%, white) 0%,
+    color-mix(in srgb, var(--accent-color) 9%, white) 42%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  filter: blur(0.3px);
+}
+
+.footer {
+  margin-top: 1.5rem;
+  color: var(--muted-text-color);
+}
+
+.signature {
+  margin-top: 0.55rem;
+  font-family: var(--font-heading);
+  font-size: 1.2rem;
+  color: var(--accent-color);
+}

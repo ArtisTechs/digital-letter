@@ -1,0 +1,56 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&family=Lora:wght@400;500&family=Nunito:wght@400;600;700&family=Playfair+Display:wght@600;700&display=swap');
+
+:root {
+  --font-heading: 'Playfair Display', serif;
+  --font-body: 'Inter', sans-serif;
+  --gradient-main: linear-gradient(135deg, #fff2f7 0%, #fde7f0 50%, #fce2ea 100%);
+  --accent-color: #cf5b89;
+  --surface-color: rgba(255, 255, 255, 0.75);
+  --text-color: #4d2c3b;
+  --muted-text-color: #7a5f6a;
+  --shadow-color: rgba(122, 62, 89, 0.2);
+  --border-color: rgba(255, 255, 255, 0.45);
+  --ambient-gradient: radial-gradient(circle at 20% 20%, rgba(255, 197, 221, 0.45), transparent 42%);
+  --overlay-opacity: 0.12;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--text-color);
+  background: var(--gradient-main);
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+p {
+  margin: 0;
+  line-height: 1.8;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+a {
+  color: var(--accent-color);
+}
+
