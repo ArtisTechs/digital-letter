@@ -8,7 +8,7 @@ export const letters: LetterData[] = [
     introTitle: "HIIII JASMINEEEE!!!",
     introMessage: "May maliit akong digital letter para sa’yo. WHAHAHAHA",
     passwordRequired: true,
-    password: "102223",
+    password: "10222023",
     passwordHint: "Special Day.",
     loadingMessage:
       "Sandali lang... inaayos ko muna ang letter mo. Make sure for Jasmine's eyes only ha. HAHAHA.",
@@ -82,7 +82,9 @@ export const letters: LetterData[] = [
     introTitle: "A Warm Letter for Yula",
     introMessage:
       "Congratulations on finishing Pioneer Service School. This little letter is for your faithful heart and the beautiful way you serve Jehovah.",
-    passwordRequired: false,
+    passwordRequired: true,
+    password: "072118",
+    passwordHint: "The Day you give yourself to Jehovah.",
     loadingMessage: "Preparing something special for you...",
     letterTitle: "Congratulations, Yula!",
     letterBody: [
@@ -229,7 +231,9 @@ export const letters: LetterData[] = [
     introTitle: "A Warm Letter for Pauline",
     introMessage:
       "Congratulations on finishing Pioneer Service School. This letter is a small gift for your faithful heart and your loving service to Jehovah.",
-    passwordRequired: false,
+    passwordRequired: true,
+    password: "102223",
+    passwordHint: "The Day you give yourself to Jehovah.",
     loadingMessage: "Preparing something special for you...",
     letterTitle: "Congratulations, Pauline!",
     letterBody: [
