@@ -1,4 +1,5 @@
-﻿import { useEffect } from 'react';
+import { useEffect } from 'react';
+import { QrDownloadFab } from '../components/common/QrDownloadFab';
 import styles from './HomePage.module.css';
 
 export const HomePage = () => {
@@ -27,6 +28,7 @@ export const HomePage = () => {
           </p>
         </div>
       </section>
+      <QrDownloadFab label="Digital Letter" color="#cf5b89" />
     </main>
   );
 };
