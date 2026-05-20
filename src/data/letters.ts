@@ -248,17 +248,17 @@ export const letters: LetterData[] = [
       headingFont: '"Cormorant Garamond", serif',
       bodyFont: '"Nunito", sans-serif',
       gradient:
-        "linear-gradient(130deg, #effcf1 0%, #def7e3 50%, #c9f0d2 100%)",
-      accentColor: "#3f9a5f",
+        "linear-gradient(130deg, #fff1f8 0%, #ffe5f2 50%, #ffd9ec 100%)",
+      accentColor: "#cb5f95",
       surfaceColor: "rgba(255, 255, 255, 0.74)",
-      textColor: "#1f4a2f",
-      mutedTextColor: "#4f7a5f",
-      shadowColor: "rgba(47, 106, 67, 0.22)",
+      textColor: "#51273f",
+      mutedTextColor: "#7b5a6d",
+      shadowColor: "rgba(143, 72, 108, 0.22)",
       borderColor: "rgba(255, 255, 255, 0.5)",
     },
     background: {
       ambientGradient:
-        "radial-gradient(circle at 20% 20%, rgba(171, 232, 188, 0.42), transparent 42%), radial-gradient(circle at 78% 30%, rgba(222, 248, 230, 0.66), transparent 45%), radial-gradient(circle at 50% 84%, rgba(156, 218, 176, 0.38), transparent 44%)",
+        "radial-gradient(circle at 20% 20%, rgba(255, 188, 222, 0.44), transparent 42%), radial-gradient(circle at 78% 30%, rgba(255, 223, 239, 0.66), transparent 45%), radial-gradient(circle at 50% 84%, rgba(247, 192, 220, 0.38), transparent 44%)",
       overlayPatternOpacity: 0.1,
       floatingElements: [
         {
@@ -268,7 +268,7 @@ export const letters: LetterData[] = [
           delay: 0.1,
           duration: 7.8,
           blur: 0,
-          color: "rgba(151, 220, 172, 0.58)",
+          color: "rgba(245, 170, 206, 0.6)",
         },
         {
           size: 80,
@@ -277,7 +277,7 @@ export const letters: LetterData[] = [
           delay: 1.2,
           duration: 9.2,
           blur: 1,
-          color: "rgba(217, 245, 226, 0.6)",
+          color: "rgba(255, 219, 238, 0.6)",
         },
         {
           size: 96,
@@ -286,7 +286,7 @@ export const letters: LetterData[] = [
           delay: 0.7,
           duration: 8.9,
           blur: 1,
-          color: "rgba(166, 229, 186, 0.52)",
+          color: "rgba(248, 191, 223, 0.54)",
         },
         {
           size: 70,
@@ -295,7 +295,7 @@ export const letters: LetterData[] = [
           delay: 1.6,
           duration: 10.1,
           blur: 2,
-          color: "rgba(128, 199, 152, 0.5)",
+          color: "rgba(236, 151, 194, 0.5)",
         },
       ],
     },
