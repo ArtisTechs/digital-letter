@@ -36,13 +36,13 @@ const exportQrImage = async (url: string, label: string, color: string) => {
   ctx.drawImage(qrCanvas, qrX, qrY, qrSize, qrSize);
 
   if ('fonts' in document) {
-    await document.fonts.load('64px "Great Vibes"');
+    await document.fonts.load('136px "Great Vibes"');
   }
   ctx.fillStyle = color;
-  ctx.font = '400 76px "Great Vibes", "Brush Script MT", cursive';
+  ctx.font = '400 140px "Great Vibes", "Brush Script MT", cursive';
   ctx.textAlign = 'center';
   ctx.textBaseline = 'middle';
-  ctx.fillText(label, size / 2, 910);
+  ctx.fillText(label, size / 2, 920);
 
   const fileName = `${label.toLowerCase().replace(/[^a-z0-9]+/g, '-') || 'qr'}-qr.png`;
   const link = document.createElement('a');
