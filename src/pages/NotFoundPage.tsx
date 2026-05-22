@@ -7,7 +7,7 @@ export const NotFoundPage = () => {
       <div className={styles.card}>
         <h1>Letter not found</h1>
         <p>The link you opened does not match an existing letter.</p>
-        <Link to="/default">Open default letter</Link>
+        <Link to="/">Back to home</Link>
       </div>
     </main>
   );
