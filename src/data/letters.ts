@@ -81,16 +81,18 @@ export const letters: LetterData[] = [
     recipientName: "Yula",
     introTitle: "A Warm Letter for Yula",
     introMessage:
-      "Congratulations on finishing Pioneer Service School. This little letter is for your faithful heart and the beautiful way you serve Jehovah.",
+      "Congratulations on finishing Pioneer Service School. This little letter is for your hardworking spirit and faithful service to Jehovah.",
     passwordRequired: true,
     password: "072118",
     passwordHint: "The Day you give yourself to Jehovah.",
     loadingMessage: "Preparing something special for you...",
     letterTitle: "Congratulations, Yula!",
     letterBody: [
-      "Congratulations, Yula, on finishing Pioneer Service School. I am truly proud of how you care for your ministry and your friendship with Jehovah.",
-      "You have such a warm and gentle heart, and people can feel it in the way you treat and serve them. Please keep serving Jehovah with joy, humility, and love.",
-      "As you move into your next assignments and goals, always remember that you are never alone. Jehovah sees every effort you make and treasures your faithful heart. I am cheering for you, and I support you and Tim.",
+      "Congratulations, Yula, on finishing Pioneer Service School. I am really proud of your hard work, sacrifices, and the way you continue serving Jehovah faithfully.",
+
+      "Your dedication, humility, and love for the ministry are inspiring. Even when things become tiring, you still continue giving your best in serving Jehovah and helping others.",
+
+      "Please continue staying close to Jehovah and keep doing your best in your service. Jehovah surely sees and values every effort you make. I will always be cheering for you and Tim.",
     ],
     closingMessage:
       "Keep shining in your service to Jehovah. We are so proud of you.",
@@ -230,16 +232,18 @@ export const letters: LetterData[] = [
     recipientName: "Pauline",
     introTitle: "A Warm Letter for Pauline",
     introMessage:
-      "Congratulations on finishing Pioneer Service School. This letter is a small gift for your faithful heart and your loving service to Jehovah.",
+      "Congratulations on finishing Pioneer Service School. This letter is a small gift for your faithful heart, strength, and loving service to Jehovah.",
     passwordRequired: true,
     password: "102223",
     passwordHint: "The Day you give yourself to Jehovah.",
     loadingMessage: "Preparing something special for you...",
     letterTitle: "Congratulations, Pauline!",
     letterBody: [
-      "Congratulations, Pauline, on finishing Pioneer Service School. Your dedication and steady faith in serving Jehovah are truly inspiring.",
-      "Your love for the ministry and for people is so genuine. Others can feel your kindness, and your presence is a real blessing to the congregation.",
-      "I pray that Jehovah keeps strengthening you in every assignment and goal ahead. Keep serving Him with joy and confidence, because your efforts are beautiful and deeply appreciated.",
+      "Congratulations, Pauline, on finishing Pioneer Service School. Your dedication and faithfulness in serving Jehovah are truly inspiring.",
+
+      "Even while balancing school and facing silent battles, you still continue doing your best. That shows how strong and determined you are. Your kindness and love for the ministry are also something many people appreciate.",
+
+      "Please continue staying close to Jehovah and serving Him with joy and confidence. Jehovah surely sees every effort you make and will continue strengthening you each day.",
     ],
     closingMessage:
       "Keep shining in your service to Jehovah. We are so proud of you.",
