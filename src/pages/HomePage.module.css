@@ -1,4 +1,4 @@
-﻿.page {
+.page {
   min-height: 100vh;
   display: grid;
   place-items: center;
@@ -60,6 +60,14 @@
   position: relative;
   z-index: 2;
   animation: fadeInUp 0.7s ease-out;
+}
+
+.logo {
+  width: clamp(150px, 20vw, 220px);
+  height: auto;
+  display: block;
+  margin: 0 auto 0.8rem;
+  object-fit: contain;
 }
 
 .card h1 {

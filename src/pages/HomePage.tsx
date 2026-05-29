@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import { QrDownloadFab } from '../components/common/QrDownloadFab';
+import habilinLogo from '../assets/habilin-logo.png';
 import styles from './HomePage.module.css';
 
 const TRIVIA_ITEMS = [
@@ -29,7 +30,7 @@ const TRIVIA_ITEMS = [
 
 export const HomePage = () => {
   useEffect(() => {
-    document.title = 'Digital Letter | About';
+    document.title = 'Habilin | About';
   }, []);
 
   const randomTrivia = TRIVIA_ITEMS[Math.floor(Math.random() * TRIVIA_ITEMS.length)];
@@ -42,16 +43,16 @@ export const HomePage = () => {
         <span className={`${styles.orb} ${styles.orbThree}`} />
       </div>
       <section className={styles.card}>
-        <h1>Digital Letter</h1>
-        <p>
-          This website creates personalized interactive web letters.
-        </p>
+        <img src={habilinLogo} alt="Habilin logo" className={styles.logo} />
+        <h1>Habilin</h1>
+        <p>This website creates personalized interactive web letters.</p>
         <div className={styles.trivia}>
           <h2>Trivia</h2>
           <p>{randomTrivia}</p>
         </div>
       </section>
-      <QrDownloadFab label="Digital Letter" color="#cf5b89" />
+      <QrDownloadFab label="Habilin" color="#cf5b89" />
     </main>
   );
 };
+

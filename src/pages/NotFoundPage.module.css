@@ -1,4 +1,4 @@
-﻿.page {
+.page {
   min-height: 100vh;
   display: grid;
   place-items: center;
@@ -16,6 +16,14 @@
   box-shadow: 0 18px 52px -28px rgba(99, 61, 75, 0.3);
 }
 
+.logo {
+  width: clamp(140px, 20vw, 210px);
+  height: auto;
+  display: block;
+  margin: 0 auto 1rem;
+  object-fit: contain;
+}
+
 .card p {
   margin-top: 0.8rem;
 }
@@ -26,4 +34,3 @@
   text-decoration: none;
   font-weight: 600;
 }
-

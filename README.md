@@ -1,6 +1,6 @@
-# Digital Letter
+# Habilin
 
-Digital Letter is a personalized web-letter website where each recipient gets a unique interactive letter experience.
+Habilin is a personalized web-letter website where each recipient gets a unique interactive letter experience.
 
 ## Purpose
 
@@ -55,3 +55,4 @@ To add or edit a letter, update entries in `src/data/letters.ts`:
 - `recipientName`, `introTitle`, `letterBody`, etc.: message content
 - `passwordRequired`, `password`, `passwordHint`: access control
 - `theme` and `background`: visual styling per recipient
+

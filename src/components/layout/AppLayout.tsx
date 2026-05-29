@@ -1,6 +1,7 @@
-﻿import { motion } from 'framer-motion';
+import { motion } from 'framer-motion';
 import type { ReactNode } from 'react';
 import type { LetterData } from '../../types/letter.types';
+import habilinLogo from '../../assets/habilin-logo.png';
 import styles from './AppLayout.module.css';
 import { AnimatedBackground } from '../letter/AnimatedBackground';
 import { FloatingDecorations } from '../letter/FloatingDecorations';
@@ -21,9 +22,9 @@ export const AppLayout = ({ letter, children }: AppLayoutProps) => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.65, ease: 'easeOut' }}
       >
+        <img src={habilinLogo} alt="Habilin logo" className={styles.logo} />
         {children}
       </motion.main>
     </div>
   );
 };
-

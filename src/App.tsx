@@ -1,4 +1,4 @@
-﻿import { useEffect } from 'react';
+import { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { LetterPage } from './pages/LetterPage';
 import { NotFoundPage } from './pages/NotFoundPage';
@@ -12,11 +12,11 @@ const LetterRoute = () => {
 
   useEffect(() => {
     if (!letter) {
-      document.title = 'Letter Not Found | Digital Letter';
+      document.title = 'Letter Not Found | Habilin';
       return;
     }
 
-    document.title = `${letter.recipientName} | Digital Letter`;
+    document.title = `${letter.recipientName} | Habilin`;
   }, [letter]);
 
   if (!letter) {
@@ -35,3 +35,4 @@ const App = () => {
 };
 
 export { App, LetterRoute };
+
