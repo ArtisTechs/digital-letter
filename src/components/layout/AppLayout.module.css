@@ -20,14 +20,6 @@
   z-index: 4;
 }
 
-.logo {
-  width: clamp(140px, 18vw, 220px);
-  height: auto;
-  display: block;
-  margin: 0 auto 1rem;
-  object-fit: contain;
-}
-
 @media (max-width: 768px) {
   .page {
     padding: 0.9rem;

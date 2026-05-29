@@ -320,7 +320,7 @@ export const letters: LetterData[] = [
       "I hope this letter reminds you that you are valued, appreciated, and deeply respected. Keep moving forward with confidence, because you bring light wherever you go.",
     ],
     closingMessage: "With gratitude and warm wishes always.",
-    signature: "From EJ Pogi",
+    signature: "From EJ",
     theme: {
       headingFont: '"Playfair Display", serif',
       bodyFont: '"Nunito", sans-serif',
